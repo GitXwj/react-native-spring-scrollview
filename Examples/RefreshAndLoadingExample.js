@@ -9,7 +9,7 @@
 
 import React from "react";
 import { StyleSheet, Text, Platform, View } from "react-native";
-import { SpringScrollView } from "../src";
+import { SpringScrollView } from "..";
 import {
   ChineseNormalFooter,
   ChineseNormalHeader,
@@ -17,9 +17,9 @@ import {
   WithLastDateHeader,
   WithLastDateFooter,
   ChineseWithLastDateFooter
-} from "../src/Customize";
-import { CommonLottieHeader } from "../src/Customize/CommonLottieHeader";
-import { CommonLottieFooter } from "../src/Customize/CommonLottieFooter";
+} from "../Customize";
+import { CommonLottieHeader } from "../Customize/CommonLottieHeader";
+import { CommonLottieFooter } from "../Customize/CommonLottieFooter";
 
 export class RefreshAndLoadingExample extends React.Component {
   _scrollView;

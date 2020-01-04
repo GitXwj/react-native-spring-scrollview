@@ -8,7 +8,7 @@
  */
 
 import React from "react";
-import { SpringScrollView } from "../src";
+import { SpringScrollView } from "..";
 import {TextInput, StyleSheet, Text, ScrollView} from "react-native";
 
 export class InputExample extends React.Component {

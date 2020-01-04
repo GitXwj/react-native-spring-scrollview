@@ -9,7 +9,7 @@
 
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity } from "react-native";
-import { SpringScrollView } from "../src";
+import { SpringScrollView } from "..";
 
 export class BouncesAndScrollEnabledExample extends React.Component {
   state = {

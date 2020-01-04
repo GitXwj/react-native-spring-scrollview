@@ -16,7 +16,7 @@ import {
   Platform,
   Animated
 } from "react-native";
-import { SpringScrollView } from "../src";
+import { SpringScrollView } from "..";
 
 export class ScrollToAndOnScrollExample extends React.Component {
   _contentCount = 20;
